@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  background-color: black;
+}
+
+.smallText {
+  width: 140px;
+  height: 30px;
+  background: #ffffff;
+  font-size: 16px;
+  padding: 4px;
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+#x {
+  order: -1;
+}
+
+#y {
+  justify-content: start;
+}
+
+.horizontalBar {
+  background: #0080ff;
+  padding: 8px;
+  column-gap: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.centerContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.roundBorder {
+  border-radius: 10px;
+}
+
+#b2 {
+  background: #5d4037;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  padding: 5px;
+}
+#b3 {
+  grid-area: upRight;
+  background: #27ae60;
+}
+#b4 {
+  background: #ffffff;
+}
+#b5 {
+  background: #5d4037;
+}
+#b6 {
+  background: #27ae60;
+}
+
+/* Стилі кнопок */
+.btn {
+  color: white;
+  background-color: gray;
+  border-radius: 15px;
+  border: 3px solid #000000;
+  font-weight: bold;
+  padding: 16px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.1s;
+  cursor: default;
+}
+
+.btn:hover {
+  background-color: #535353;
+}

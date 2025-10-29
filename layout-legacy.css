@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 3px solid black;
+    background-color: black;
+    overflow: auto;
+}
+
+#b1 {
+    margin-bottom: 3px;
+}
+
+.main-content-row {
+    margin-bottom: 3px;
+}
+
+#b3 {
+    margin-bottom: 3px;
+}
+
+#b4 {
+    margin-bottom: 3px;
+}
+
+#b2 {
+    padding-right: 3px;
+}
+
+.middle-column-group {
+    padding-right: 3px;
+}
+
+
+.main-content-row {
+    overflow: auto;
+}
+
+#b2 {
+    float: left;
+    width: 33.33%;
+}
+
+.right-column-group {
+    float: left;
+    width: 66.67%;
+}
+
+
+.lower-content-row {
+    overflow: auto;
+}
+
+.middle-column-group {
+    float: left;
+    width: 50%;
+}
+
+#b5 {
+    float: left;
+    width: 50%;
+}

@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "leftBar upRight upRight"
+    "leftBar middle middleRight"
+    "leftBar middleDown middleRight"
+    "footer footer footer";
+
+  border: 3px solid;
+  gap: 3px;
+  background-color: black;
+}
+
+#b1 {
+  grid-area: header;
+}
+#b2 {
+  grid-area: leftBar;
+}
+#b3 {
+  grid-area: upRight;
+}
+#b4 {
+  grid-area: middle;
+}
+#b5 {
+  grid-area: middleRight;
+}
+#b6 {
+  grid-area: middleDown;
+}
+#b7 {
+  grid-area: footer;
+}

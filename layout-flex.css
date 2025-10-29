@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  background-color: black;
+  gap: 3px;
+  
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+#b1, #b7 {
+  flex-shrink: 0;
+}
+
+.main-content-row {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  flex-grow: 1;
+}
+
+#b2 {
+  flex-basis: 33.33%;
+  flex-shrink: 0;
+}
+
+.right-column-group {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex-basis: 66.67%;
+}
+
+.lower-content-row {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  flex-grow: 1;
+}
+
+.middle-column-group {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex-basis: 50%;
+}
+
+#b4 {
+  flex-grow: 1;
+}
+
+#b5 {
+  flex-basis: 50%;
+}
